@@ -1,0 +1,61 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.toggle-btn {
+  background: #1d3557;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.toggle-btn:hover {
+  transform: translateY(-2px);
+}
+
+.timer {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+.profile-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 2rem;
+  width: min(420px, 90vw);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.profile-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #1d3557;
+  margin-bottom: 1rem;
+}
+
+.profile-card h2 {
+  margin: 0.5rem 0;
+  color: #1d3557;
+}
+
+.profile-card p {
+  color: #333;
+  line-height: 1.6;
+}
